@@ -4,10 +4,6 @@
 #include <stdlib.h>
 
 
-// const char* KeyWordSimplify = "simplify";
-// const char LBracketValue = '(';
-// const char RBracketValue = ')';
-
 enum Operation {
     NotDefined,
     Add,
@@ -17,9 +13,6 @@ enum Operation {
 };
 
 enum TokenType {
-    // KeyWord,
-    // LBracket,
-    // RBracket,
     Operator,
     Value
 };

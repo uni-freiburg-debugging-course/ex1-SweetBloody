@@ -9,12 +9,6 @@ int argsCheck(int argc, char **argv)
     if (argc != 2)
         return INCORRECT_ARGS;
 
-    // if (strcmp(argv[1], "a") != 0 && strcmp(argv[1], "m") != 0 && strcmp(argv[1], "o") != 0)
-    //     return INCORRECT_ARGS;
-    //
-    // if ((argc == 4 && strcmp(argv[1], "o") != 0) || (argc == 5 && strcmp(argv[1], "o") == 0))
-    //     return INCORRECT_ARGS;
-
     return OK;
 }
 

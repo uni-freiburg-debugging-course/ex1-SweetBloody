@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 #include "const.h"
-#include "struct.h"
 
-// read string from file
 int readString(FILE *f, char *string)
 {
     char *ch;
