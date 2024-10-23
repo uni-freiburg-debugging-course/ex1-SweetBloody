@@ -7,3 +7,20 @@ Detailed instructions are in the exercise sheet. Following are your checkpoints:
 - [ ] Implement a fuzzer
 - [ ] Generate *lots* of random instances with your fuzzer. Your evaluator and z3 must return the same result on generated instances
 - [ ] Provide detailed build instructions for your code so that we can evaluate it
+
+
+# How to run
+
+## fuzzer
+
+ - run `make`
+ - run `./app.exe <output_filename> <number_of_expressions>`
+
+## parser
+
+ - run `make`
+ - run `./app.exe <input_filename>`
+
+## z3_parser
+
+ - run `python3 main.py <input_filename>`
